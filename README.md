@@ -7,10 +7,12 @@ This session shall demonstrate the capabilities of Azure Cognitive Services - an
 
 ## Related links
 [AI / Cognitive Services](https://cfsummit.adobeevents.com/attendease/networking/experience/bbe5ed14-8b56-41f1-831f-95f61ae709c0/3f61fb74-7a03-4593-ad0a-b373112cf62d)<br />
- [Media3 Github](https://github.com/Media3-Technologies)
+[Media3 Github](https://github.com/Media3-Technologies)
+<br />
+[What are cognitive services?](https://learn.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services)
 
 ## Javascript with Postman 
-###### All of these examples are not performed in a single request but are working examples through out the entire collection. 
+###### All of these examples are not performed in a single request but are working examples through out the entire collection. These are executed in the tests tab of postman
 ```javascript
 // SET THE JSON RESPONSE
 var  jsonData  =  pm.response.json();
@@ -26,7 +28,7 @@ pm.environment.set("refresh_token", jsonData.refresh_token );
 
 
 
-## Setting the global variables
+## Setting the global variables and using a visualizer template within postman
 ```javascript
 var  template  =  `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
