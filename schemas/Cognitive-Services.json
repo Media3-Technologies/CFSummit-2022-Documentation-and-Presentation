@@ -1,0 +1,89 @@
+
+{
+	"url" : "https://azure.microsoft.com/en-us/products/cognitive-services/",
+	"Speech" : {
+		"description" : "Improve customer experiences with Cognitive Service for Speech",
+		"services" : [
+			{
+				"name" : "Speech to text",
+				"description" : "Improve customer experiences with Cognitive Service for Speech"
+			},
+			{
+				"name" : "Text to speech",
+				"description" : "Convert text to lifelike speech for more natural interfaces."
+			
+			},
+			{
+				"name" : "Speech translation",
+				"description" : "Integrate real-time speech translation into your apps."
+			},
+			{
+				"name" : "Speaker recognition",
+				"description" : "Identify and verify the people speaking based on audio."
+			}
+		]
+	},
+	"Language" : {
+		"description" : "Understand conversations and unstructured text with Cognitive Service for Language",
+		"services" : [
+			{
+				"name" : "Entity recognition",
+				"description" : "Identify commonly-used and domain-specific terms."
+			},
+			{
+				"name" : "Sentiment analysis",
+				"description" : "Automatically detect sentiments and opinions from text."
+			},
+			{
+				"name" : "Question Answering",
+				"description" : "Enable your apps to interact with users through natural language."
+			},
+			{
+				"name" : "Conversational language understanding",
+				"description" : "Translate more than 100 languages and dialects."
+			}
+		]
+	},
+	"Vision" : {
+		"description" : "Identify and analyze content within images and videos",
+		"services" : [
+			{
+				"name" : "Computer Vision",
+				"description" : "Analyze content in images and video."
+			},
+			{
+				"name" : "Custom Vision",
+				"description" : "Customize image recognition to fit your business needs."
+			},
+			{
+				"name" : "Face API",
+				"description" : "Detect and identify people in images."
+			}
+		]
+	},
+	"Decision" : {
+		"description" : "Make smarter decisions faster",
+		"services" : [
+			{
+				"name" : "Anomaly Detector",
+				"description" : "Identify potential problems early on."
+			},
+			{
+				"name" : "Content Moderator",
+				"description" : "Detect potentially offensive or unwanted content."
+			},
+			{
+				"name" : "Personalizer",
+				"description" : "Create rich, personalized experiences for every user."
+			}
+		
+		]
+	},
+	"OpenAI Service" : {
+		"description" : "Dynamic language models to power your apps",
+		"services" : [
+			"name" : "OpenAI Service",
+			"description" : "Apply advanced coding and language models to a variety of use cases."
+		]
+	}
+}
