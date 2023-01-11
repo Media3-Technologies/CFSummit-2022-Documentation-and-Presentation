@@ -1,0 +1,1711 @@
+{
+    "firstPageSubscriptions": {
+        "valueMapById": {
+            "481edbd7-1f11-4009-b1b8-0eed8f096a6b": {
+                "subscription": {
+                    "authorizationSource": "RoleBased",
+                    "displayName": "AZURE",
+                    "state": "Enabled",
+                    "subscriptionId": "481edbd7-1f11-4009-b1b8-0eed8f096a6b",
+                    "subscriptionPolicies": {
+                        "locationPlacementId": "Public_2014-09-01",
+                        "quotaId": "CSP_2015-05-01"
+                    },
+                    "tenantId": "4bd1d0b7-977d-40b2-84f1-39a01eb49ad0"
+                },
+                "notInFirstPage": false
+            }
+        },
+        "count": {
+            "type": "Total",
+            "value": 1
+        },
+        "resultCode": "Success"
+    },
+    "locations": {
+        "value": [
+            {
+                "id": "/locations/eastus",
+                "name": "eastus",
+                "displayName": "East US",
+                "regionalDisplayName": "(US) East US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-79.8164",
+                    "latitude": "37.3719",
+                    "physicalLocation": "Virginia",
+                    "pairedRegion": [
+                        {
+                            "name": "westus",
+                            "id": "/locations/westus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/eastus2",
+                "name": "eastus2",
+                "displayName": "East US 2",
+                "regionalDisplayName": "(US) East US 2",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-78.3889",
+                    "latitude": "36.6681",
+                    "physicalLocation": "Virginia",
+                    "pairedRegion": [
+                        {
+                            "name": "centralus",
+                            "id": "/locations/centralus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/southcentralus",
+                "name": "southcentralus",
+                "displayName": "South Central US",
+                "regionalDisplayName": "(US) South Central US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-98.5",
+                    "latitude": "29.4167",
+                    "physicalLocation": "Texas",
+                    "pairedRegion": [
+                        {
+                            "name": "northcentralus",
+                            "id": "/locations/northcentralus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westus2",
+                "name": "westus2",
+                "displayName": "West US 2",
+                "regionalDisplayName": "(US) West US 2",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-119.852",
+                    "latitude": "47.233",
+                    "physicalLocation": "Washington",
+                    "pairedRegion": [
+                        {
+                            "name": "westcentralus",
+                            "id": "/locations/westcentralus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westus3",
+                "name": "westus3",
+                "displayName": "West US 3",
+                "regionalDisplayName": "(US) West US 3",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-112.074036",
+                    "latitude": "33.448376",
+                    "physicalLocation": "Phoenix",
+                    "pairedRegion": [
+                        {
+                            "name": "eastus",
+                            "id": "/locations/eastus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/australiaeast",
+                "name": "australiaeast",
+                "displayName": "Australia East",
+                "regionalDisplayName": "(Asia Pacific) Australia East",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "151.2094",
+                    "latitude": "-33.86",
+                    "physicalLocation": "New South Wales",
+                    "pairedRegion": [
+                        {
+                            "name": "australiasoutheast",
+                            "id": "/locations/australiasoutheast"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/southeastasia",
+                "name": "southeastasia",
+                "displayName": "Southeast Asia",
+                "regionalDisplayName": "(Asia Pacific) Southeast Asia",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "103.833",
+                    "latitude": "1.283",
+                    "physicalLocation": "Singapore",
+                    "pairedRegion": [
+                        {
+                            "name": "eastasia",
+                            "id": "/locations/eastasia"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/northeurope",
+                "name": "northeurope",
+                "displayName": "North Europe",
+                "regionalDisplayName": "(Europe) North Europe",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "-6.2597",
+                    "latitude": "53.3478",
+                    "physicalLocation": "Ireland",
+                    "pairedRegion": [
+                        {
+                            "name": "westeurope",
+                            "id": "/locations/westeurope"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/swedencentral",
+                "name": "swedencentral",
+                "displayName": "Sweden Central",
+                "regionalDisplayName": "(Europe) Sweden Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "17.14127",
+                    "latitude": "60.67488",
+                    "physicalLocation": "Gävle",
+                    "pairedRegion": [
+                        {
+                            "name": "swedensouth",
+                            "id": "/locations/swedensouth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/uksouth",
+                "name": "uksouth",
+                "displayName": "UK South",
+                "regionalDisplayName": "(Europe) UK South",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "-0.799",
+                    "latitude": "50.941",
+                    "physicalLocation": "London",
+                    "pairedRegion": [
+                        {
+                            "name": "ukwest",
+                            "id": "/locations/ukwest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westeurope",
+                "name": "westeurope",
+                "displayName": "West Europe",
+                "regionalDisplayName": "(Europe) West Europe",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "4.9",
+                    "latitude": "52.3667",
+                    "physicalLocation": "Netherlands",
+                    "pairedRegion": [
+                        {
+                            "name": "northeurope",
+                            "id": "/locations/northeurope"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/centralus",
+                "name": "centralus",
+                "displayName": "Central US",
+                "regionalDisplayName": "(US) Central US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "US",
+                    "longitude": "-93.6208",
+                    "latitude": "41.5908",
+                    "physicalLocation": "Iowa",
+                    "pairedRegion": [
+                        {
+                            "name": "eastus2",
+                            "id": "/locations/eastus2"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/southafricanorth",
+                "name": "southafricanorth",
+                "displayName": "South Africa North",
+                "regionalDisplayName": "(Africa) South Africa North",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Africa",
+                    "longitude": "28.218370",
+                    "latitude": "-25.731340",
+                    "physicalLocation": "Johannesburg",
+                    "pairedRegion": [
+                        {
+                            "name": "southafricawest",
+                            "id": "/locations/southafricawest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/centralindia",
+                "name": "centralindia",
+                "displayName": "Central India",
+                "regionalDisplayName": "(Asia Pacific) Central India",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "73.9197",
+                    "latitude": "18.5822",
+                    "physicalLocation": "Pune",
+                    "pairedRegion": [
+                        {
+                            "name": "southindia",
+                            "id": "/locations/southindia"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/eastasia",
+                "name": "eastasia",
+                "displayName": "East Asia",
+                "regionalDisplayName": "(Asia Pacific) East Asia",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "114.188",
+                    "latitude": "22.267",
+                    "physicalLocation": "Hong Kong",
+                    "pairedRegion": [
+                        {
+                            "name": "southeastasia",
+                            "id": "/locations/southeastasia"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/japaneast",
+                "name": "japaneast",
+                "displayName": "Japan East",
+                "regionalDisplayName": "(Asia Pacific) Japan East",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "139.77",
+                    "latitude": "35.68",
+                    "physicalLocation": "Tokyo, Saitama",
+                    "pairedRegion": [
+                        {
+                            "name": "japanwest",
+                            "id": "/locations/japanwest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/koreacentral",
+                "name": "koreacentral",
+                "displayName": "Korea Central",
+                "regionalDisplayName": "(Asia Pacific) Korea Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "126.9780",
+                    "latitude": "37.5665",
+                    "physicalLocation": "Seoul",
+                    "pairedRegion": [
+                        {
+                            "name": "koreasouth",
+                            "id": "/locations/koreasouth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/canadacentral",
+                "name": "canadacentral",
+                "displayName": "Canada Central",
+                "regionalDisplayName": "(Canada) Canada Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Canada",
+                    "longitude": "-79.383",
+                    "latitude": "43.653",
+                    "physicalLocation": "Toronto",
+                    "pairedRegion": [
+                        {
+                            "name": "canadaeast",
+                            "id": "/locations/canadaeast"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/francecentral",
+                "name": "francecentral",
+                "displayName": "France Central",
+                "regionalDisplayName": "(Europe) France Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "2.3730",
+                    "latitude": "46.3772",
+                    "physicalLocation": "Paris",
+                    "pairedRegion": [
+                        {
+                            "name": "francesouth",
+                            "id": "/locations/francesouth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/germanywestcentral",
+                "name": "germanywestcentral",
+                "displayName": "Germany West Central",
+                "regionalDisplayName": "(Europe) Germany West Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "8.682127",
+                    "latitude": "50.110924",
+                    "physicalLocation": "Frankfurt",
+                    "pairedRegion": [
+                        {
+                            "name": "germanynorth",
+                            "id": "/locations/germanynorth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/norwayeast",
+                "name": "norwayeast",
+                "displayName": "Norway East",
+                "regionalDisplayName": "(Europe) Norway East",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "10.752245",
+                    "latitude": "59.913868",
+                    "physicalLocation": "Norway",
+                    "pairedRegion": [
+                        {
+                            "name": "norwaywest",
+                            "id": "/locations/norwaywest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/switzerlandnorth",
+                "name": "switzerlandnorth",
+                "displayName": "Switzerland North",
+                "regionalDisplayName": "(Europe) Switzerland North",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "Europe",
+                    "longitude": "8.564572",
+                    "latitude": "47.451542",
+                    "physicalLocation": "Zurich",
+                    "pairedRegion": [
+                        {
+                            "name": "switzerlandwest",
+                            "id": "/locations/switzerlandwest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/brazilsouth",
+                "name": "brazilsouth",
+                "displayName": "Brazil South",
+                "regionalDisplayName": "(South America) Brazil South",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Recommended",
+                    "geographyGroup": "South America",
+                    "longitude": "-46.633",
+                    "latitude": "-23.55",
+                    "physicalLocation": "Sao Paulo State",
+                    "pairedRegion": [
+                        {
+                            "name": "southcentralus",
+                            "id": "/locations/southcentralus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/centralusstage",
+                "name": "centralusstage",
+                "displayName": "Central US (Stage)",
+                "regionalDisplayName": "(US) Central US (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/eastusstage",
+                "name": "eastusstage",
+                "displayName": "East US (Stage)",
+                "regionalDisplayName": "(US) East US (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/eastus2stage",
+                "name": "eastus2stage",
+                "displayName": "East US 2 (Stage)",
+                "regionalDisplayName": "(US) East US 2 (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/northcentralusstage",
+                "name": "northcentralusstage",
+                "displayName": "North Central US (Stage)",
+                "regionalDisplayName": "(US) North Central US (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/southcentralusstage",
+                "name": "southcentralusstage",
+                "displayName": "South Central US (Stage)",
+                "regionalDisplayName": "(US) South Central US (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/westusstage",
+                "name": "westusstage",
+                "displayName": "West US (Stage)",
+                "regionalDisplayName": "(US) West US (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/westus2stage",
+                "name": "westus2stage",
+                "displayName": "West US 2 (Stage)",
+                "regionalDisplayName": "(US) West US 2 (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US"
+                }
+            },
+            {
+                "id": "/locations/asia",
+                "name": "asia",
+                "displayName": "Asia",
+                "regionalDisplayName": "Asia",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/asiapacific",
+                "name": "asiapacific",
+                "displayName": "Asia Pacific",
+                "regionalDisplayName": "Asia Pacific",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/australia",
+                "name": "australia",
+                "displayName": "Australia",
+                "regionalDisplayName": "Australia",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/brazil",
+                "name": "brazil",
+                "displayName": "Brazil",
+                "regionalDisplayName": "Brazil",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/canada",
+                "name": "canada",
+                "displayName": "Canada",
+                "regionalDisplayName": "Canada",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/europe",
+                "name": "europe",
+                "displayName": "Europe",
+                "regionalDisplayName": "Europe",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/france",
+                "name": "france",
+                "displayName": "France",
+                "regionalDisplayName": "France",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/germany",
+                "name": "germany",
+                "displayName": "Germany",
+                "regionalDisplayName": "Germany",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/global",
+                "name": "global",
+                "displayName": "Global",
+                "regionalDisplayName": "Global",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/india",
+                "name": "india",
+                "displayName": "India",
+                "regionalDisplayName": "India",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/japan",
+                "name": "japan",
+                "displayName": "Japan",
+                "regionalDisplayName": "Japan",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/korea",
+                "name": "korea",
+                "displayName": "Korea",
+                "regionalDisplayName": "Korea",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/norway",
+                "name": "norway",
+                "displayName": "Norway",
+                "regionalDisplayName": "Norway",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/southafrica",
+                "name": "southafrica",
+                "displayName": "South Africa",
+                "regionalDisplayName": "South Africa",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/switzerland",
+                "name": "switzerland",
+                "displayName": "Switzerland",
+                "regionalDisplayName": "Switzerland",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/uae",
+                "name": "uae",
+                "displayName": "United Arab Emirates",
+                "regionalDisplayName": "United Arab Emirates",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/uk",
+                "name": "uk",
+                "displayName": "United Kingdom",
+                "regionalDisplayName": "United Kingdom",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/unitedstates",
+                "name": "unitedstates",
+                "displayName": "United States",
+                "regionalDisplayName": "United States",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/unitedstateseuap",
+                "name": "unitedstateseuap",
+                "displayName": "United States EUAP",
+                "regionalDisplayName": "United States EUAP",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other"
+                }
+            },
+            {
+                "id": "/locations/eastasiastage",
+                "name": "eastasiastage",
+                "displayName": "East Asia (Stage)",
+                "regionalDisplayName": "(Asia Pacific) East Asia (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific"
+                }
+            },
+            {
+                "id": "/locations/southeastasiastage",
+                "name": "southeastasiastage",
+                "displayName": "Southeast Asia (Stage)",
+                "regionalDisplayName": "(Asia Pacific) Southeast Asia (Stage)",
+                "metadata": {
+                    "regionType": "Logical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific"
+                }
+            },
+            {
+                "id": "/locations/northcentralus",
+                "name": "northcentralus",
+                "displayName": "North Central US",
+                "regionalDisplayName": "(US) North Central US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US",
+                    "longitude": "-87.6278",
+                    "latitude": "41.8819",
+                    "physicalLocation": "Illinois",
+                    "pairedRegion": [
+                        {
+                            "name": "southcentralus",
+                            "id": "/locations/southcentralus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westus",
+                "name": "westus",
+                "displayName": "West US",
+                "regionalDisplayName": "(US) West US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US",
+                    "longitude": "-122.417",
+                    "latitude": "37.783",
+                    "physicalLocation": "California",
+                    "pairedRegion": [
+                        {
+                            "name": "eastus",
+                            "id": "/locations/eastus"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/jioindiawest",
+                "name": "jioindiawest",
+                "displayName": "Jio India West",
+                "regionalDisplayName": "(Asia Pacific) Jio India West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "70.05773",
+                    "latitude": "22.470701",
+                    "physicalLocation": "Jamnagar",
+                    "pairedRegion": [
+                        {
+                            "name": "jioindiacentral",
+                            "id": "/locations/jioindiacentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/uaenorth",
+                "name": "uaenorth",
+                "displayName": "UAE North",
+                "regionalDisplayName": "(Middle East) UAE North",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Middle East",
+                    "longitude": "55.316666",
+                    "latitude": "25.266666",
+                    "physicalLocation": "Dubai",
+                    "pairedRegion": [
+                        {
+                            "name": "uaecentral",
+                            "id": "/locations/uaecentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westcentralus",
+                "name": "westcentralus",
+                "displayName": "West Central US",
+                "regionalDisplayName": "(US) West Central US",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "US",
+                    "longitude": "-110.234",
+                    "latitude": "40.890",
+                    "physicalLocation": "Wyoming",
+                    "pairedRegion": [
+                        {
+                            "name": "westus2",
+                            "id": "/locations/westus2"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/southafricawest",
+                "name": "southafricawest",
+                "displayName": "South Africa West",
+                "regionalDisplayName": "(Africa) South Africa West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Africa",
+                    "longitude": "18.843266",
+                    "latitude": "-34.075691",
+                    "physicalLocation": "Cape Town",
+                    "pairedRegion": [
+                        {
+                            "name": "southafricanorth",
+                            "id": "/locations/southafricanorth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/australiacentral",
+                "name": "australiacentral",
+                "displayName": "Australia Central",
+                "regionalDisplayName": "(Asia Pacific) Australia Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "149.1244",
+                    "latitude": "-35.3075",
+                    "physicalLocation": "Canberra",
+                    "pairedRegion": [
+                        {
+                            "name": "australiacentral",
+                            "id": "/locations/australiacentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/australiacentral2",
+                "name": "australiacentral2",
+                "displayName": "Australia Central 2",
+                "regionalDisplayName": "(Asia Pacific) Australia Central 2",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "149.1244",
+                    "latitude": "-35.3075",
+                    "physicalLocation": "Canberra",
+                    "pairedRegion": [
+                        {
+                            "name": "australiacentral2",
+                            "id": "/locations/australiacentral2"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/australiasoutheast",
+                "name": "australiasoutheast",
+                "displayName": "Australia Southeast",
+                "regionalDisplayName": "(Asia Pacific) Australia Southeast",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "144.9631",
+                    "latitude": "-37.8136",
+                    "physicalLocation": "Victoria",
+                    "pairedRegion": [
+                        {
+                            "name": "australiaeast",
+                            "id": "/locations/australiaeast"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/japanwest",
+                "name": "japanwest",
+                "displayName": "Japan West",
+                "regionalDisplayName": "(Asia Pacific) Japan West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "135.5022",
+                    "latitude": "34.6939",
+                    "physicalLocation": "Osaka",
+                    "pairedRegion": [
+                        {
+                            "name": "japaneast",
+                            "id": "/locations/japaneast"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/jioindiacentral",
+                "name": "jioindiacentral",
+                "displayName": "Jio India Central",
+                "regionalDisplayName": "(Asia Pacific) Jio India Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "79.08886",
+                    "latitude": "21.146633",
+                    "physicalLocation": "Nagpur",
+                    "pairedRegion": [
+                        {
+                            "name": "jioindiawest",
+                            "id": "/locations/jioindiawest"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/koreasouth",
+                "name": "koreasouth",
+                "displayName": "Korea South",
+                "regionalDisplayName": "(Asia Pacific) Korea South",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "129.0756",
+                    "latitude": "35.1796",
+                    "physicalLocation": "Busan",
+                    "pairedRegion": [
+                        {
+                            "name": "koreacentral",
+                            "id": "/locations/koreacentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/southindia",
+                "name": "southindia",
+                "displayName": "South India",
+                "regionalDisplayName": "(Asia Pacific) South India",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "80.1636",
+                    "latitude": "12.9822",
+                    "physicalLocation": "Chennai",
+                    "pairedRegion": [
+                        {
+                            "name": "centralindia",
+                            "id": "/locations/centralindia"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/westindia",
+                "name": "westindia",
+                "displayName": "West India",
+                "regionalDisplayName": "(Asia Pacific) West India",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Asia Pacific",
+                    "longitude": "72.868",
+                    "latitude": "19.088",
+                    "physicalLocation": "Mumbai",
+                    "pairedRegion": [
+                        {
+                            "name": "southindia",
+                            "id": "/locations/southindia"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/canadaeast",
+                "name": "canadaeast",
+                "displayName": "Canada East",
+                "regionalDisplayName": "(Canada) Canada East",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Canada",
+                    "longitude": "-71.217",
+                    "latitude": "46.817",
+                    "physicalLocation": "Quebec",
+                    "pairedRegion": [
+                        {
+                            "name": "canadacentral",
+                            "id": "/locations/canadacentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/francesouth",
+                "name": "francesouth",
+                "displayName": "France South",
+                "regionalDisplayName": "(Europe) France South",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Europe",
+                    "longitude": "2.1972",
+                    "latitude": "43.8345",
+                    "physicalLocation": "Marseille",
+                    "pairedRegion": [
+                        {
+                            "name": "francecentral",
+                            "id": "/locations/francecentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/germanynorth",
+                "name": "germanynorth",
+                "displayName": "Germany North",
+                "regionalDisplayName": "(Europe) Germany North",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Europe",
+                    "longitude": "8.806422",
+                    "latitude": "53.073635",
+                    "physicalLocation": "Berlin",
+                    "pairedRegion": [
+                        {
+                            "name": "germanywestcentral",
+                            "id": "/locations/germanywestcentral"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/norwaywest",
+                "name": "norwaywest",
+                "displayName": "Norway West",
+                "regionalDisplayName": "(Europe) Norway West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Europe",
+                    "longitude": "5.733107",
+                    "latitude": "58.969975",
+                    "physicalLocation": "Norway",
+                    "pairedRegion": [
+                        {
+                            "name": "norwayeast",
+                            "id": "/locations/norwayeast"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/switzerlandwest",
+                "name": "switzerlandwest",
+                "displayName": "Switzerland West",
+                "regionalDisplayName": "(Europe) Switzerland West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Europe",
+                    "longitude": "6.143158",
+                    "latitude": "46.204391",
+                    "physicalLocation": "Geneva",
+                    "pairedRegion": [
+                        {
+                            "name": "switzerlandnorth",
+                            "id": "/locations/switzerlandnorth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/ukwest",
+                "name": "ukwest",
+                "displayName": "UK West",
+                "regionalDisplayName": "(Europe) UK West",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Europe",
+                    "longitude": "-3.084",
+                    "latitude": "53.427",
+                    "physicalLocation": "Cardiff",
+                    "pairedRegion": [
+                        {
+                            "name": "uksouth",
+                            "id": "/locations/uksouth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/uaecentral",
+                "name": "uaecentral",
+                "displayName": "UAE Central",
+                "regionalDisplayName": "(Middle East) UAE Central",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "Middle East",
+                    "longitude": "54.366669",
+                    "latitude": "24.466667",
+                    "physicalLocation": "Abu Dhabi",
+                    "pairedRegion": [
+                        {
+                            "name": "uaenorth",
+                            "id": "/locations/uaenorth"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "/locations/brazilsoutheast",
+                "name": "brazilsoutheast",
+                "displayName": "Brazil Southeast",
+                "regionalDisplayName": "(South America) Brazil Southeast",
+                "metadata": {
+                    "regionType": "Physical",
+                    "regionCategory": "Other",
+                    "geographyGroup": "South America",
+                    "longitude": "-43.2075",
+                    "latitude": "-22.90278",
+                    "physicalLocation": "Rio",
+                    "pairedRegion": [
+                        {
+                            "name": "brazilsouth",
+                            "id": "/locations/brazilsouth"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "recentResources": {
+        "recentResources": {
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Storage/storageAccounts/mpoffers": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Storage/storageAccounts/mpoffers",
+                "resourceName": "mpoffers",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413516540,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/Managed-App-Definitions/providers/Microsoft.Storage/storageAccounts/m3managedappdef": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/Managed-App-Definitions/providers/Microsoft.Storage/storageAccounts/m3managedappdef",
+                "resourceName": "m3managedappdef",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413519659,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Network/networkSecurityGroups/m3-tmp-nsg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Network/networkSecurityGroups/m3-tmp-nsg",
+                "resourceName": "m3-tmp-nsg",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1644114404326,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/sqlm3test": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/sqlm3test",
+                "resourceName": "sqlm3test",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1647195511007,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481EDBD7-1F11-4009-B1B8-0EED8F096A6B": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b",
+                "resourceName": "AZURE",
+                "resourceType": "microsoft.resources/subscriptions",
+                "resourceKind": null,
+                "location": "",
+                "timeStamp": 1654721902208,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/ao5euspod01otds1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/ao5euspod01otds1",
+                "resourceName": "ao5euspod01otds1",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413560744,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/azuremainrm3de122610470": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/azuremainrm3de122610470",
+                "resourceName": "azuremainrm3de122610470",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storage",
+                "location": "",
+                "timeStamp": 1645643084590,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/cfcrepo": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg/providers/Microsoft.Storage/storageAccounts/cfcrepo",
+                "resourceName": "cfcrepo",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413564358,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/ARM_Deploy_Staging/providers/Microsoft.Storage/storageAccounts/m3blobcopytestx48170": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/ARM_Deploy_Staging/providers/Microsoft.Storage/storageAccounts/m3blobcopytestx48170",
+                "resourceName": "m3blobcopytestx48170",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413554285,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs21003bffda58b52a1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs21003bffda58b52a1",
+                "resourceName": "cs21003bffda58b52a1",
+                "resourceType": "microsoft.storage/storageaccounts",
+                "resourceKind": "storagev2",
+                "location": "",
+                "timeStamp": 1653413557712,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/NetworkWatcherRG": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/NetworkWatcherRG",
+                "resourceName": "NetworkWatcherRG",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645685002447,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/main-rg",
+                "resourceName": "main-rg",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645685089106,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481EDBD7-1F11-4009-B1B8-0EED8F096A6B/resourceGroups/M3Management-RG": {
+                "resourceId": "/subscriptions/481EDBD7-1F11-4009-B1B8-0EED8F096A6B/resourceGroups/M3Management-RG",
+                "resourceName": "M3Management-RG",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1647195517969,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/AzureBackupRG_eastus_1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/AzureBackupRG_eastus_1",
+                "resourceName": "AzureBackupRG_eastus_1",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645685211663,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MAIN-RG/providers/Microsoft.Compute/disks/cf2021testb-osdisk": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MAIN-RG/providers/Microsoft.Compute/disks/cf2021testb-osdisk",
+                "resourceName": "cf2021testb-osdisk",
+                "resourceType": "microsoft.compute/disks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645677008823,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg",
+                "resourceName": "image-repo-rg",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "",
+                "timeStamp": 1645690217081,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkInterfaces/cpanel-tesrtv1763": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkInterfaces/cpanel-tesrtv1763",
+                "resourceName": "cpanel-tesrtv1763",
+                "resourceType": "microsoft.network/networkinterfaces",
+                "resourceKind": "regular",
+                "location": "eastus",
+                "timeStamp": 1645645250793,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkSecurityGroups/cpanel-tesrtv1-nsg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkSecurityGroups/cpanel-tesrtv1-nsg",
+                "resourceName": "cpanel-tesrtv1-nsg",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645645267947,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Compute/images/Centos7.Prod.v1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Compute/images/Centos7.Prod.v1",
+                "resourceName": "Centos7.Prod.v1",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645661417894,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Compute/images/Centos7.cPanel7.Prod.v1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Compute/images/Centos7.cPanel7.Prod.v1",
+                "resourceName": "Centos7.cPanel7.Prod.v1",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645675076327,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Network/networkInterfaces/primary-cpanel-im928": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Network/networkInterfaces/primary-cpanel-im928",
+                "resourceName": "primary-cpanel-im928",
+                "resourceType": "microsoft.network/networkinterfaces",
+                "resourceKind": "regular",
+                "location": "eastus",
+                "timeStamp": 1645668796447,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Network/networkSecurityGroups/cpan-testv4-nsg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG/providers/Microsoft.Network/networkSecurityGroups/cpan-testv4-nsg",
+                "resourceName": "cpan-testv4-nsg",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645668807709,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.1",
+                "resourceName": "cPanel-ss-0.0.1",
+                "resourceType": "microsoft.compute/snapshots",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645675861844,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.2": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.2",
+                "resourceName": "cPanel-ss-0.0.2",
+                "resourceType": "microsoft.compute/snapshots",
+                "resourceKind": null,
+                "location": "",
+                "timeStamp": 1645676146890,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-generalized-0.0.1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-generalized-0.0.1",
+                "resourceName": "cPanel-ss-generalized-0.0.1",
+                "resourceType": "microsoft.compute/snapshots",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645676783135,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-OFFERS-RG/providers/Microsoft.Compute/disks/cpan-testv4_disk1_80f78d9855f04763a2be54a4d791da79": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-OFFERS-RG/providers/Microsoft.Compute/disks/cpan-testv4_disk1_80f78d9855f04763a2be54a4d791da79",
+                "resourceName": "cpan-testv4_disk1_80f78d9855f04763a2be54a4d791da79",
+                "resourceType": "microsoft.compute/disks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645676807309,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/disks/cPanel-generalized-0.0.1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/disks/cPanel-generalized-0.0.1",
+                "resourceName": "cPanel-generalized-0.0.1",
+                "resourceType": "microsoft.compute/disks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645677012841,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/publicIpAddresses/cPanel-test-01-ip": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/publicIPAddresses/cPanel-test-01-ip",
+                "resourceName": "cPanel-test-01-ip",
+                "resourceType": "microsoft.network/publicipaddresses",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645680652503,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkInterfaces/cpanel-test-01460": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkInterfaces/cpanel-test-01460",
+                "resourceName": "cpanel-test-01460",
+                "resourceType": "microsoft.network/networkinterfaces",
+                "resourceKind": "regular",
+                "location": "eastus",
+                "timeStamp": 1645680660138,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkSecurityGroups/cPanel-test-01-nsg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Network/networkSecurityGroups/cPanel-test-01-nsg",
+                "resourceName": "cPanel-test-01-nsg",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645680677280,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.1",
+                "resourceName": "cPanel-0.0.1",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645680835007,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.2": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.2",
+                "resourceName": "cPanel-0.0.2",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645682120897,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/Managed-App-Definitions": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/Managed-App-Definitions",
+                "resourceName": "Managed-App-Definitions",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645684976166,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/MP-Offers-RG",
+                "resourceName": "MP-Offers-RG",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645684994338,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/cpanel-testv2_group": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/cpanel-testv2_group",
+                "resourceName": "cpanel-testv2_group",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645685494463,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/sqlm3test/providers/Microsoft.RecoveryServices/vaults/vault968": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/sqlm3test/providers/Microsoft.RecoveryServices/vaults/vault968",
+                "resourceName": "vault968",
+                "resourceType": "microsoft.recoveryservices/vaults",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1654875749605,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/ARM_Deploy_Staging": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/ARM_Deploy_Staging",
+                "resourceName": "ARM_Deploy_Staging",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645685316536,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.3": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/snapshots/cPanel-ss-0.0.3",
+                "resourceName": "cPanel-ss-0.0.3",
+                "resourceType": "microsoft.compute/snapshots",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645690223177,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourcegroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.3": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.3",
+                "resourceName": "cPanel-0.0.3",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645690552421,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourcegroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.4": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/image-repo-rg/providers/Microsoft.Compute/images/cPanel-0.0.4",
+                "resourceName": "cPanel-0.0.4",
+                "resourceType": "microsoft.compute/images",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1645694424907,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test",
+                "resourceName": "shibb-test",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "",
+                "timeStamp": 1651629243708,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/dnsZones/idp.media3.net": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/dnszones/idp.media3.net",
+                "resourceName": "idp.media3.net",
+                "resourceType": "microsoft.network/dnszones",
+                "resourceKind": null,
+                "location": "global",
+                "timeStamp": 1651608230355,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkInterfaces/shibb-test847_z1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkInterfaces/shibb-test847_z1",
+                "resourceName": "shibb-test847_z1",
+                "resourceType": "microsoft.network/networkinterfaces",
+                "resourceKind": "regular",
+                "location": "eastus",
+                "timeStamp": 1651612368562,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/shibb-test-vnet": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/shibb-test-vnet",
+                "resourceName": "shibb-test-vnet",
+                "resourceType": "microsoft.network/virtualnetworks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651612377655,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkSecurityGroups/aadds-nsg": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkSecurityGroups/aadds-nsg",
+                "resourceName": "aadds-nsg",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651627613528,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.AAD/DomainServices/idp.media3.net": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.AAD/DomainServices/idp.media3.net",
+                "resourceName": "idp.media3.net",
+                "resourceType": "microsoft.aad/domainservices",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1652209999466,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/aadds-vnet": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/aadds-vnet",
+                "resourceName": "aadds-vnet",
+                "resourceType": "microsoft.network/virtualnetworks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651628741357,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test",
+                "resourceName": "shibb-idp-test",
+                "resourceType": "microsoft.resources/subscriptions/resourcegroups",
+                "resourceKind": null,
+                "location": "",
+                "timeStamp": 1651628012302,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test/providers/Microsoft.Network/virtualNetworks/shibb-idp-test-vnet": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test/providers/Microsoft.Network/virtualNetworks/shibb-idp-test-vnet",
+                "resourceName": "shibb-idp-test-vnet",
+                "resourceType": "microsoft.network/virtualnetworks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651628663076,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/aadds-vnet-01": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/virtualNetworks/aadds-vnet-01",
+                "resourceName": "aadds-vnet-01",
+                "resourceType": "microsoft.network/virtualnetworks",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651629083035,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourcegroups/shibb-test/providers/Microsoft.Compute/virtualMachines/shibb-idp-test": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Compute/virtualMachines/shibb-idp-test",
+                "resourceName": "shibb-idp-test",
+                "resourceType": "microsoft.compute/virtualmachines",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1652835137004,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkSecurityGroups/aadds-nsg-01": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkSecurityGroups/aadds-nsg-01",
+                "resourceName": "aadds-nsg-01",
+                "resourceType": "microsoft.network/networksecuritygroups",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651763756067,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkInterfaces/shibb-idp-test40_z1": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-test/providers/Microsoft.Network/networkInterfaces/shibb-idp-test40_z1",
+                "resourceName": "shibb-idp-test40_z1",
+                "resourceType": "microsoft.network/networkinterfaces",
+                "resourceKind": "regular",
+                "location": "eastus",
+                "timeStamp": 1651690043647,
+                "existenceState": "Exists"
+            },
+            "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test/providers/Microsoft.Compute/virtualMachines/optiontrax-autopilot-tst": {
+                "resourceId": "/subscriptions/481edbd7-1f11-4009-b1b8-0eed8f096a6b/resourceGroups/shibb-idp-test/providers/Microsoft.Compute/virtualMachines/optiontrax-autopilot-tst",
+                "resourceName": "optiontrax-autopilot-tst",
+                "resourceType": "microsoft.compute/virtualmachines",
+                "resourceKind": null,
+                "location": "eastus",
+                "timeStamp": 1651811387683,
+                "existenceState": "Exists"
+            }
+        },
+        "status": "CompletedSuccess"
+    },
+    "serviceHealthAlerts": [],
+    "argServiceIsUnavailable": false
+}
