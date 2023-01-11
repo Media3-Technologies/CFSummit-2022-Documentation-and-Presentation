@@ -1,0 +1,50 @@
+[
+   {
+      "Method":"GET",
+      "Priority":1,
+      "class":"success",
+      "Description":"The GET method is used to retrieve  information from the given server using a given URI. Requests using GET should only retrieve data and should have no other effect on the data."
+   },
+   {
+      "Method":"HEAD",
+      "Priority":4,
+      "class":"info",
+      "Description":"Same as GET, but transfers the status line and header section only."
+   },
+   {
+      "Method":"POST",
+      "Priority":2,
+      "class":"warning",
+      "Description":"A POST request is used to send data to the server, for example, customer information, file upload, etc. using HTML forms."
+   },
+   {
+      "Method":"PUT",
+      "Priority":3,
+      "class":"warning",
+      "Description":"Replaces all current representations of the target resource with the uploaded content."
+   },
+   {
+      "Method":"DELETE",
+      "Priority":6,
+      "class":"danger",
+      "Description":"Removes all current representations of the target resource given by a URI."
+   },
+   {
+      "Method":"CONNECT",
+      "Priority":7,
+      "class":"info",
+      "Description":"Establishes a tunnel to the server identified by a given URI."
+   },
+   {
+      "Method":"OPTIONS",
+      "Priority":8,
+      "class":"info",
+      "Description":"Describes the communication options for the target resource."
+   },
+   {
+      "Method":"TRACE",
+      "Priority":9,
+      "class":"secondary",
+      "Description":"Performs a message loop-back test along the path to the target resource."
+   }
+]
